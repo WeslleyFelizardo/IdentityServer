@@ -1,0 +1,17 @@
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Domain\bin\Debug\netcoreapp2.1\IdentityProvider.Domain.deps.json
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Domain\bin\Debug\netcoreapp2.1\IdentityProvider.Domain.dll
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Domain\bin\Debug\netcoreapp2.1\IdentityProvider.Domain.pdb
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Domain\obj\Debug\netcoreapp2.1\IdentityProvider.Domain.csprojAssemblyReference.cache
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Domain\obj\Debug\netcoreapp2.1\IdentityProvider.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Domain\obj\Debug\netcoreapp2.1\IdentityProvider.Domain.AssemblyInfoInputs.cache
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Domain\obj\Debug\netcoreapp2.1\IdentityProvider.Domain.AssemblyInfo.cs
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Domain\obj\Debug\netcoreapp2.1\IdentityProvider.Domain.dll
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Domain\obj\Debug\netcoreapp2.1\IdentityProvider.Domain.pdb
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Domain\bin\Debug\netcoreapp2.1\IdentityProvider.Domain.deps.json
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Domain\bin\Debug\netcoreapp2.1\IdentityProvider.Domain.dll
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Domain\bin\Debug\netcoreapp2.1\IdentityProvider.Domain.pdb
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Domain\obj\Debug\netcoreapp2.1\IdentityProvider.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Domain\obj\Debug\netcoreapp2.1\IdentityProvider.Domain.AssemblyInfoInputs.cache
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Domain\obj\Debug\netcoreapp2.1\IdentityProvider.Domain.AssemblyInfo.cs
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Domain\obj\Debug\netcoreapp2.1\IdentityProvider.Domain.dll
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Domain\obj\Debug\netcoreapp2.1\IdentityProvider.Domain.pdb

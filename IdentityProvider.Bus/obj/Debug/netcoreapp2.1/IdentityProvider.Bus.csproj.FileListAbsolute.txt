@@ -1,0 +1,17 @@
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Bus\bin\Debug\netcoreapp2.1\IdentityProvider.Bus.deps.json
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Bus\bin\Debug\netcoreapp2.1\IdentityProvider.Bus.dll
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Bus\bin\Debug\netcoreapp2.1\IdentityProvider.Bus.pdb
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Bus\obj\Debug\netcoreapp2.1\IdentityProvider.Bus.csprojAssemblyReference.cache
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Bus\obj\Debug\netcoreapp2.1\IdentityProvider.Bus.csproj.CoreCompileInputs.cache
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Bus\obj\Debug\netcoreapp2.1\IdentityProvider.Bus.AssemblyInfoInputs.cache
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Bus\obj\Debug\netcoreapp2.1\IdentityProvider.Bus.AssemblyInfo.cs
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Bus\obj\Debug\netcoreapp2.1\IdentityProvider.Bus.dll
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider\IdentityProvider.Bus\obj\Debug\netcoreapp2.1\IdentityProvider.Bus.pdb
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Bus\bin\Debug\netcoreapp2.1\IdentityProvider.Bus.deps.json
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Bus\bin\Debug\netcoreapp2.1\IdentityProvider.Bus.dll
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Bus\bin\Debug\netcoreapp2.1\IdentityProvider.Bus.pdb
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Bus\obj\Debug\netcoreapp2.1\IdentityProvider.Bus.csproj.CoreCompileInputs.cache
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Bus\obj\Debug\netcoreapp2.1\IdentityProvider.Bus.AssemblyInfoInputs.cache
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Bus\obj\Debug\netcoreapp2.1\IdentityProvider.Bus.AssemblyInfo.cs
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Bus\obj\Debug\netcoreapp2.1\IdentityProvider.Bus.dll
+D:\Projects\FastCut\api\IdentityServer\IdentityProvider.Bus\obj\Debug\netcoreapp2.1\IdentityProvider.Bus.pdb
