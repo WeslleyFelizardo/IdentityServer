@@ -118,11 +118,11 @@ namespace IdentityServer4.Quickstart.UI
             if (ModelState.IsValid)
             {
                 // validate username/password against in-memory store
-                //if (_users.ValidateCredentials(model.Username, model.Password))
-                if (_handlerUser.ValidateCredentials(model.Username, model.Password))
+                if (_users.ValidateCredentials(model.Username, model.Password))
+                //if (_handlerUser.ValidateCredentials(model.Username, model.Password))
                 {
-                    var user = _repositoryUser.GetByExpression(u => u.Email == model.Username);//_users.FindByUsername(model.Username);
-                    await _events.RaiseAsync(new UserLoginSuccessEvent(user.Email, user.Id.ToString(), user.Name));
+                    var user = _users.FindByUsername(model.Username); //_repositoryUser.GetByExpression(u => u.Email == model.Username);//_users.FindByUsername(model.Username);
+                    await _events.RaiseAsync(new UserLoginSuccessEvent(user.Username, user.SubjectId, user.ProviderName));//new UserLoginSuccessEvent(user.Email, user.Id.ToString(), user.Name));
 
                     // only set explicit expiration here if user chooses "remember me". 
                     // otherwise we rely upon expiration configured in cookie middleware.
@@ -137,7 +137,7 @@ namespace IdentityServer4.Quickstart.UI
                     };
 
                     // issue authentication cookie with subject ID and username
-                    await HttpContext.SignInAsync(user.Id.ToString(), user.Name, props);
+                    await HttpContext.SignInAsync(user.SubjectId, user.Username);//(user.Id.ToString(), user.Name, props);
 
                     if (context != null)
                     {

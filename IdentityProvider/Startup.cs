@@ -44,7 +44,7 @@ namespace IdentityProvider
 
             services.AddIdentityServer()
                 
-                //.AddTestUsers(TestUsers.Users)
+                .AddTestUsers(TestUsers.Users)
                 .AddInMemoryIdentityResources(Resources.GetIdentityResources())
                 .AddInMemoryApiResources(Resources.GetApiResources())
                 .AddInMemoryClients(Clients.Get())
@@ -124,24 +124,17 @@ namespace IdentityProvider
                     ClientName = "Swagger UI for fastcut_api",
                     AllowedGrantTypes = GrantTypes.Implicit,
                     AllowAccessTokensViaBrowser = true,
-                    RedirectUris = new[] { "http://localhost:50916/oauth2-redirect.html" },
-                    AllowedScopes = { "openid", "profile", "fastcut_api", "node_api" }
+                    RedirectUris = new[] { "http://localhost:50916/api-docs/oauth2-redirect.html" },
+                    AllowedScopes = { "openid", "profile", "access_admin" }
                 },
                 new Client
                 {
-                    ClientId = "webApplication",
-                    ClientName = "Web Application MVC",
+                    ClientId = "fastcut_queue_api_swagger",
+                    ClientName = "Swagger UI for fastcut_queue_api",
                     AllowedGrantTypes = GrantTypes.Implicit,
-                    AllowedScopes = new List<string>
-                    {
-                        IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile,
-                        "fastcut_api",
-                        "node_api"
-                    },
                     AllowAccessTokensViaBrowser = true,
-                    RedirectUris = new List<string>() {"http://localhost:59113/signin-oidc"},
-                    PostLogoutRedirectUris = new List<string>() { "http://localhost:59113" }
+                    RedirectUris = new[] { "http://localhost:3200/api-docs/oauth2-redirect.html" },
+                    AllowedScopes = { "access_employee" }
                 }
             };
         }
@@ -163,8 +156,8 @@ namespace IdentityProvider
         {
             return new[]
             {
-                new ApiResource("fastcut_api", "Fast Cut Api"),
-                new ApiResource("node_api", "Api em Node")
+                new ApiResource("access_admin", "Acesso FastCut Api Administrador"),
+                new ApiResource("access_employee", "Acesso FastCut Queue Api Funcionário")
             };
         }
     }
